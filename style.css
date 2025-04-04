@@ -1,0 +1,79 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter';
+}
+
+.card{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: hsl(0, 0%, 12%);
+    border: 1px solid hsl(0, 0%, 12%);
+    border-radius:10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h2{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: -5px;
+}
+
+h2{
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.address{
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+}
+
+p{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: small;
+}
+
+img{
+    border-radius: 100%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.button{
+    height: 50px;
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bolder;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width:80%;
+    margin-left: 10%;
+}
+
+span{
+    position: relative;
+    top: 30%;
+}
+
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+@media (max-width:630px) {
+    .card{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
